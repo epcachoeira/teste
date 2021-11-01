@@ -61,7 +61,9 @@ public class Programa {
 		for (Employee obj : list) {
 			System.out.println(obj);
 		}
-
+		
+		sc.close();
+		
 	}
 
 	public static boolean hasId(List<Employee> list, int id) {
